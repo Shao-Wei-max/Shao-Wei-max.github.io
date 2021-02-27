@@ -3,7 +3,7 @@
 Created using JS Bin
 http://bin.webduino.io
 
-Copyright (c) 2021 by anonymous (http://bin.webduino.io/josen/1/edit)
+Copyright (c) 2021 by anonymous (http://bin.webduino.io/rohex/1/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
@@ -37,7 +37,7 @@ button:hover {
 </head>
 
 <body>
- <h1>紹崴智慧宅</h1>
+   <h1>紹崴智慧宅</h1>
   <div><button id="demo-area-05-btn1" class="db5">按鈕 1</button>
     <button id="demo-area-05-btn2" class="db5">按鈕 2</button>
     <button id="demo-area-05-btn3" class="db5">按鈕 3</button>
@@ -53,11 +53,9 @@ boardReady({board: 'Bit', device: 'bit68e43', transport: 'mqtt'}, function (boar
   document.getElementById("demo-area-05-btn1").addEventListener("click",function(){
     matrix.setColor('#ff0000');
   });
-  document.getElementById("demo-area-01-show").innerHTML = '顯示紅色';
   document.getElementById("demo-area-05-btn2").addEventListener("click",function(){
     matrix.setColor('#3333ff');
   });
-  document.getElementById("demo-area-01-show").innerHTML = '顯示藍色';
 });
 
 </script>
